@@ -1,0 +1,16 @@
+/*Taille d'ecran responsive*/
+
+$screen-littlePhone: 300px;
+$screen-sm: 576px;
+$screen-md: 700px;
+$screen-lg: 800px;
+$screen-xl: 1200px;
+
+$screen-littlePhone:"only screen and (max-width:  #{screen-iphoneQuatre})";
+$screen-sm-min: "only screen and (max-width:  #{$screen-sm})";
+$screen-sm-max: "only screen and (max-width:  #{$screen-sm})";
+$screen-md-min: "only screen and (min-width:  #{$screen-md})";
+$screen-md-max: "only screen and (max-width:  #{$screen-md})";
+$screen-lg-max: "only screen and (max-width:  #{$screen-lg})";
+$screen-lg-min: "only screen and (min-width:  #{$screen-lg})";
+$screen-xl-max: "only screen and (min-width:  #{$screen-xl})";

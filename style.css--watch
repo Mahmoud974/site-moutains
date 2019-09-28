@@ -1,0 +1,367 @@
+/*Taille d'ecran responsive*/
+html,
+body,
+ul,
+ol,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+article .container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+}
+
+.menu-1b {
+  width: 300px;
+  margin: 30px;
+  box-shadow: 8px 8px 20px #999999;
+  opacity: 1;
+  animation-name: shake;
+}
+.menu-1b:hover {
+  opacity: 0.5;
+  box-shadow: 0;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@media only screen and (max-width: screen-iphoneQuatre) {
+  .menu-1b {
+    width: 100px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu-1b {
+    width: 290px;
+    margin: 20px 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu-1b {
+    width: 200px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .menu-1b {
+    width: 100px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menu-1b {
+    width: 200px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menu-1b {
+    width: 180px;
+    margin: 30px 15px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .menu-1b {
+    width: 280px;
+    margin: 30px 15px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .menu-1b {
+    width: 300px;
+    margin: 30px;
+  }
+}
+.menu-2b {
+  width: 300px;
+  margin: 30px;
+  box-shadow: 8px 8px 20px #999999;
+  opacity: 1;
+  animation-name: shake;
+}
+.menu-2b:hover {
+  opacity: 0.5;
+  box-shadow: 0;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@media only screen and (max-width: screen-iphoneQuatre) {
+  .menu-2b {
+    width: 100px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu-2b {
+    width: 290px;
+    margin: 20px 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu-2b {
+    width: 200px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .menu-2b {
+    width: 100px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menu-2b {
+    width: 200px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menu-2b {
+    width: 180px;
+    margin: 30px 15px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .menu-2b {
+    width: 280px;
+    margin: 30px 15px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .menu-2b {
+    width: 300px;
+    margin: 30px;
+  }
+}
+.menu-3b {
+  width: 300px;
+  margin: 30px;
+  box-shadow: 8px 8px 20px #999999;
+  opacity: 1;
+  animation-name: shake;
+}
+.menu-3b:hover {
+  opacity: 0.5;
+  box-shadow: 0;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@media only screen and (max-width: screen-iphoneQuatre) {
+  .menu-3b {
+    width: 100px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu-3b {
+    width: 290px;
+    margin: 20px 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu-3b {
+    width: 200px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .menu-3b {
+    width: 100px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menu-3b {
+    width: 200px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menu-3b {
+    width: 180px;
+    margin: 30px 15px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .menu-3b {
+    width: 280px;
+    margin: 30px 15px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .menu-3b {
+    width: 300px;
+    margin: 30px;
+  }
+}
+.menu-4b {
+  width: 300px;
+  margin: 30px;
+  box-shadow: 8px 8px 20px #999999;
+  opacity: 1;
+  animation-name: shake;
+}
+.menu-4b:hover {
+  opacity: 0.5;
+  box-shadow: 0;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@media only screen and (max-width: screen-iphoneQuatre) {
+  .menu-4b {
+    width: 100px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu-4b {
+    width: 290px;
+    margin: 20px 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .menu-4b {
+    width: 200px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .menu-4b {
+    width: 100px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menu-4b {
+    width: 200px;
+    margin: 30px 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .menu-4b {
+    width: 180px;
+    margin: 30px 15px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .menu-4b {
+    width: 280px;
+    margin: 30px 15px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .menu-4b {
+    width: 300px;
+    margin: 30px;
+  }
+}
+footer, .headerGreen {
+  background-color: #19947B;
+  height: 100px;
+}
+
+.headerGreen {
+  margin: auto;
+}
+.headerGreen h1 {
+  font-family: Helvetica, sans-serif;
+  color: #FDC100;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-size: 2.5em;
+}
+
+.btn, button {
+  padding: 10px 25px;
+  font-size: 2em;
+  border-radius: 10px;
+  display: flex;
+  margin: 40px auto;
+  background: #19947B;
+  color: #FDC100;
+}
+
+button {
+  position: relative;
+}
+
+* {
+  transition: all 200ms ease-in-out;
+}
+
+.prochainement {
+  font-size: 40px;
+  width: 800px;
+  overflow: hidden;
+  animation: 2s typing steps(50, end) infinite;
+}
+
+@keyframes typing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FDC100;
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=style.css--watch.map */
