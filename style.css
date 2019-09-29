@@ -86,31 +86,42 @@ ul {
   margin: 10px;
 }
 
+.buttonMarron {
+  /*transition: all 400ms easy;*/
+}
 
+/*.buttonMarron:hover
+{
+    transform:scale(1.5);
+}*/
 /*--Aside--*/
 .asideUn {
   height: 371px;
   align-items: center;
   display: flex;
   text-align: center;
+  justify-content: space-evenly;
+  padding: 0;
 }
 
 .asideUnUn ul {
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
+  padding: 0;
   text-align: center;
 }
 
-.aside li {
+.asideUn li {
   text-align: center;
-  margin-left: 20px;
+  margin-left: 40px;
   display: block;
+  font-size: 14px;
 }
 
 .asideUn h4 {
   margin-top: 10px;
   color: black;
+  font-size: 22px;
 }
 
 .asideUn p {
@@ -354,6 +365,26 @@ ul {
   width: 70px;
   height: 70px;
   background: #fff;
+}
+
+/*RECENT POSTS*/
+.recentPosts {
+  height: 753px;
+}
+
+/*paysage*/
+.paysage {
+  height: 489px;
+  background-image: url("./Waxom_Free_PSD_Template/images/landscape.png");
+}
+.paysage ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 185px;
+}
+.paysage ul li:nth-child(2) {
+  margin-top: -40px;
 }
 
 /*# sourceMappingURL=style.css.map */
