@@ -347,6 +347,9 @@ ul {
   font-family: Helvetica, sans-serif;
   font-weight: none;
 }
+.barreDegrade ul {
+  padding-left: 0;
+}
 .barreDegrade li {
   padding-left: 70px;
   margin: auto;
@@ -371,6 +374,22 @@ ul {
 .recentPosts {
   height: 753px;
 }
+.recentPosts .titreRecent {
+  padding: 83px 0 40px;
+}
+.recentPosts .titreRecent h3, .recentPosts .titreRecent p {
+  color: black;
+  text-align: center;
+}
+
+.mesTroisBlock {
+  flex-direction: row;
+}
+
+.recPosts {
+  border: 2px solid black;
+  margin-left: 30px;
+}
 
 /*paysage*/
 .paysage {
@@ -385,6 +404,27 @@ ul {
 }
 .paysage ul li:nth-child(2) {
   margin-top: -40px;
+}
+
+/*FOND GRIS DE LA FIN*/
+.almostEnd {
+  height: 502px;
+  background-color: #191919;
+}
+.almostEnd p {
+  font-size: 14px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #111111;
+  height: 109px;
+}
+
+.myFooter {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -448,6 +448,10 @@ ul
         font-family: Helvetica, sans-serif;
         font-weight: none;
     }
+    & ul
+    {
+        padding-left:0;
+    }
     & li
     {
         padding-left: 70px;
@@ -480,7 +484,31 @@ ul
 .recentPosts
 {
     height: 753px;
+
+   & .titreRecent
+   {
+    padding: 83px 0 40px;
+    & h3, p
+    {
+        color: black;
+        text-align: center;
+    }
+   }
+    
+    
 }
+.mesTroisBlock
+{
+    
+    flex-direction: row;
+    
+}
+.recPosts
+{
+    border: 2px solid black;
+    margin-left: 30px;
+} 
+
 /*paysage*/
 .paysage
 {
@@ -501,4 +529,27 @@ ul
     }
 
     
+}
+/*FOND GRIS DE LA FIN*/
+.almostEnd
+{
+    height: 502px;
+    background-color: #191919;
+    & p
+    {
+        font-size: 14px;
+    }
+}
+/*FOOTER*/
+footer
+{
+    background-color: #111111;
+    height: 109px;
+    
+}
+.myFooter
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
