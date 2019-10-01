@@ -2,6 +2,7 @@ $beige: #F9F9F6;
 $marron: rgb(153, 134, 117);
 $gradienteBrown: linear-gradient(90deg,#261e1b, 50%, #473025);
 $grey: #ebebeb;
+
 body, html
 {
     padding: 0;
@@ -503,11 +504,7 @@ ul
     flex-direction: row;
     
 }
-.recPosts
-{
-    border: 2px solid black;
-    margin-left: 30px;
-} 
+
 
 /*paysage*/
 .paysage
@@ -530,26 +527,93 @@ ul
 
     
 }
+
+
+
 /*FOND GRIS DE LA FIN*/
+
 .almostEnd
 {
     height: 502px;
     background-color: #191919;
+    display: flex;
+        align-items: center;
+    
+    .container
+    {
+        padding:0;
+        
+        & .logoText img
+        {
+            padding:0 0 20px 0 ;
+        }
+
+
+        h5
+    {
+        color:#fff;
+    }
     & p
     {
         font-size: 14px;
+        color: #555555;
     }
+
+    @mixin trait($height:1px, $width:245px ) 
+{
+    height: $height;
+    width: $width;
+    background-color: #555555;
+    margin: 10px 0;
+
+    }
+
+  .traitDubas
+    {
+       
+       @include trait;
+    }
+
+    .beige
+{
+    color: #c7b299;
+}
+.blue
+{
+    color: #099ac4;
+}
+.white
+{
+    color: #fff;
+}
+
+}
+    
 }
 /*FOOTER*/
 footer
 {
     background-color: #111111;
     height: 109px;
+
     
+}
+small
+{
+    color: #555555;
 }
 .myFooter
 {
     display: flex;
     justify-content: space-around;
     padding: 50px;
+}
+.beige
+{
+    color: #c7b299;
+}
+
+.white
+{
+    color: #fff;
 }

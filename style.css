@@ -386,11 +386,6 @@ ul {
   flex-direction: row;
 }
 
-.recPosts {
-  border: 2px solid black;
-  margin-left: 30px;
-}
-
 /*paysage*/
 .paysage {
   height: 489px;
@@ -410,9 +405,36 @@ ul {
 .almostEnd {
   height: 502px;
   background-color: #191919;
+  display: flex;
+  align-items: center;
 }
-.almostEnd p {
+.almostEnd .container {
+  padding: 0;
+}
+.almostEnd .container .logoText img {
+  padding: 0 0 20px 0;
+}
+.almostEnd .container h5 {
+  color: #fff;
+}
+.almostEnd .container p {
   font-size: 14px;
+  color: #555555;
+}
+.almostEnd .container .traitDubas {
+  height: 1px;
+  width: 245px;
+  background-color: #555555;
+  margin: 10px 0;
+}
+.almostEnd .container .beige {
+  color: #c7b299;
+}
+.almostEnd .container .blue {
+  color: #099ac4;
+}
+.almostEnd .container .white {
+  color: #fff;
 }
 
 /*FOOTER*/
@@ -421,10 +443,22 @@ footer {
   height: 109px;
 }
 
+small {
+  color: #555555;
+}
+
 .myFooter {
   display: flex;
   justify-content: space-around;
   padding: 50px;
+}
+
+.beige {
+  color: #c7b299;
+}
+
+.white {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
