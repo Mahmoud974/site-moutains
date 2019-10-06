@@ -457,6 +457,20 @@ small {
 }
 
 @media only screen and (max-width: 576px) {
+  .fondDegrade {
+    height: 250px;
+  }
+  .fondDegrade .purchaseButton {
+    margin: auto;
+  }
+
+  .monNavigation {
+    padding: 40px 0;
+  }
+  .monNavigation .navigation {
+    display: none;
+  }
+
   .imgNavigation {
     overflow: hidden;
     width: 500px;
@@ -489,8 +503,30 @@ small {
     margin-left: 0;
   }
 
-  .imgIphone img {
-    display: none;
+  .imgNavigation li:nth-child(1) {
+    position: relative;
+    margin-left: 22.2px;
+    z-index: 1;
+    margin-top: 25px;
+  }
+
+  .imgNavigation li:nth-child(2) {
+    position: relative;
+    margin-left: -320px;
+    z-index: 4;
+    margin-right: 30px;
+    margin-top: 25px;
+    width: 200px;
+  }
+
+  .imgNavigation li:nth-child(3) {
+    position: absolute;
+    z-index: 5;
+    width: 607px;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: -57px;
+    overflow: auto;
   }
 
   .fondIphone {
@@ -498,6 +534,22 @@ small {
   }
   .fondIphone ul {
     padding: 0;
+  }
+  .fondIphone .imgIphone img {
+    display: none;
+  }
+  .fondIphone .blockMobileText {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .barreDegrade {
+    height: 500px;
+    justify-content: center;
+  }
+  .barreDegrade .blocIcone ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 /*
