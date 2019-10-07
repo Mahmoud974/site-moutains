@@ -731,6 +731,7 @@ small
 }
    .fondIphone
    {
+       height: 530px;
        text-align: center;
 
        & ul
@@ -763,9 +764,52 @@ small
    }
    
    }
+   .recentPosts
+   {
+       height: 1490px;
+       & .mesTroisBlock div
+       {
+        padding: 0 35px;
+       }
+   }
+   .paysage
+   {
+       display: none;
+   }
+   .almostEnd
+   {
+       height: 1350px;
+       text-align: center;
+       .traitDubas
+       {
+          display: flex;
+         align-self: auto;
+          margin:160px 100px;
+       }
    
-
-
+   }
+   .dribbleCenter
+   {
+       justify-content: center;
+   }
+   .dribbleCenter:nth-child(1)
+   {
+       padding: 20px 0;
+   }
+   footer
+   {
+       height:100%;
+       .myFooter
+       {
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+           text-align: center;
+           padding: 30px;
+           
+       }
+   }
+   
 }
 
 /*
